@@ -1,0 +1,5 @@
+= puppet-common module
+
+{<img src='https://codex.cegeka.be/jenkins/job/puppet-common/badge/icon' />}[https://codex.cegeka.be/jenkins/job/puppet-common/]
+
+This is the common module.
