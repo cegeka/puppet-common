@@ -1,6 +1,6 @@
 class common::sysadmintools {
 
-  @package { [ 'screen', 'tmux' ] :
+  @package { [ 'screen', 'tmux', 'telnet' ] :
     ensure => present,
   }
 
