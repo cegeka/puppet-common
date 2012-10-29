@@ -1,5 +1,7 @@
 class common::developmenttools {
-  @package { [ 'subversion' ] :
+  
+  @package { [ 'subversion', 'kernel-devel' ] :
     ensure => present,
   }
+
 }
