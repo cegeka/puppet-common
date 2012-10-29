@@ -4,4 +4,8 @@ class common::sysadmintools {
     ensure => present,
   }
 
+  @package { 'yum':
+    ensure => latest,
+  }
+
 }
