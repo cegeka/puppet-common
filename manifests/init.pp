@@ -26,7 +26,7 @@ class common {
     mode   => '0755'
   }
 
-  @file { '/data/dumps':
+  @file { '/data/heapdumps':
     ensure => directory,
     owner  => 'root',
     group  => 'root',
