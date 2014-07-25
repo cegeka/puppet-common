@@ -4,4 +4,10 @@ class common::systemlibraries {
     ensure => present,
   }
 
+  if $::operatingsystemrelease =~ /^5./ {
+    package { 'python-simplejson':
+      ensure => present
+    }
+  }
+
 }
