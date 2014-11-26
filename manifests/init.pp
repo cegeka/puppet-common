@@ -47,4 +47,11 @@ class common {
     mode   => '0755'
   }
 
+  @file { '/data/app_data':
+    ensure => directory,
+    owner  => 'root',
+    group  => 'root',
+    mode   => '0755'
+  }
+
 }
