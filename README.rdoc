@@ -3,3 +3,4 @@
 {<img src='https://jenkins-iac.cegeka.be/job/puppet-common/badge/icon' />}[https://jenkins-iac.cegeka.be/job/puppet-common/]
 
 This is the common module.
+
