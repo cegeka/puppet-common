@@ -19,12 +19,12 @@ class common {
 #    mode   => '0755'
 #  }
 
-  @file { '/data/logs':
-    ensure => directory,
-    owner  => 'root',
-    group  => 'root',
-    mode   => '0755'
-  }
+#  @file { '/data/logs':
+#    ensure => directory,
+#    owner  => 'root',
+#    group  => 'root',
+#    mode   => '0755'
+#  }
 
   @file { '/data/heapdumps':
     ensure => directory,
